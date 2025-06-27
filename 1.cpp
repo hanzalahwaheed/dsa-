@@ -3,9 +3,6 @@ using namespace std;
 
 void solve()
 {
-  string s;
-  cin >> s;
-  cout << s;
 }
 
 int main()
@@ -16,6 +13,10 @@ int main()
   freopen("output.txt", "w", stdout);
 #endif
 
-  solve();
+  int t;
+  t = 1;
+  cin >> t;
+  while (t--)
+    solve();
   return 0;
 }
